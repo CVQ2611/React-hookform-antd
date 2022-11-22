@@ -21,12 +21,11 @@ function App() {
   const { handleSubmit, control, formState: { errors } } = useForm({
     mode: 'onSubmit',
     reValidateMode: 'onChange',
-    defaultValues: {
-      firstName: 'your first name',
-      lastName: 'your last name',
-      gender: 'male',
-      email: 'youremail@gmail.com',
-    },
+    // defaultValues: {
+    //   firstName: 'Your first name',
+    //   lastName: 'Your last name',
+    //   email: 'Youremail@gmail.com',
+    // },
     resolver: yupResolver(schema),
   });
   // console.log('error:', errors);
