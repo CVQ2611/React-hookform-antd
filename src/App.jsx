@@ -26,7 +26,6 @@ function App() {
       lastName: 'your last name',
       gender: 'male',
       email: 'youremail@gmail.com',
-      age: 'your age'
     },
     resolver: yupResolver(schema),
   });
